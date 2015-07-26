@@ -1,0 +1,15 @@
+git init // --bare for remote repository, Only used for push
+git add package.json README.md TEST1 TEST2
+git remote add origin gill@gillserver:/GIT_REPOSITORY/CC3200_DEMO # Make sure you init it with --bare
+git push origin master
+
+## Other commands
+git branch # manages brances
+git clone # copy from remote server
+git log
+git status
+git commit # commit to local head., git add only stages files.
+
+
+For project create:
+<working dire> -> <staged> -> <commited to local git> ->  <create a branc> --> <push to remote repo
